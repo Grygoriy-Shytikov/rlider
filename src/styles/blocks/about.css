@@ -1,0 +1,173 @@
+.about {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 0 15px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__image-container {
+  max-width: 580px;
+  width: 100%;
+
+  max-height: 570px;
+
+  padding-right: 10px;
+}
+
+.about__image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  max-height: 570px;
+}
+
+.about__description {
+  width: 570px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title-container {
+  position: relative;
+  justify-self: start;
+
+  display: flex;
+  align-items: flex-end;
+
+  height: 169px;
+  padding: 23px 0 50px;
+}
+
+.about__title-container::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  height: 3px;
+  width: 30px;
+
+  top: 0;
+
+  background-color: #6ca6c1;
+}
+
+.about__title {
+  height: 96px;
+}
+
+.about__paragraph-container {
+  height: 240px;
+  width: 570px;
+}
+
+.about__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #7281a4;
+}
+
+.about__digits {
+  margin-top: 35px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  max-width: 500px;
+  height: 125px;
+  width: 100%;
+}
+
+.about__digit {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 87px;
+
+  height: 87px;
+
+  color: #6ca6c1;
+}
+
+.about__digit-info {
+  margin-top: 10px;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #3f3f3f;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    margin: 40px auto 0;
+    padding: 0 5px 5px;
+
+    flex-direction: column-reverse;
+  }
+
+  .about__image-container {
+    padding: 0;
+    margin: 10px auto 0;
+    max-width: 570px;
+  }
+
+  .about__description {
+    max-width: 570px;
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  .about__title-container {
+    height: 129px;
+    padding: 13px 0 20px;
+  }
+
+  .about__paragraph-container {
+    height: 100%;
+    max-width: 570px;
+    width: 100%;
+  }
+
+  .about__paragraph {
+    font-size: 15px;
+  }
+
+  .about__digits {
+    margin: 15px auto 0;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .about__digit {
+    height: 20px;
+    line-height: 40px;
+    font-size: 40px;
+  }
+
+  .about__digit-info {
+    margin-top: 8px;
+
+    font-size: 11px;
+    line-height: 12px;
+  }
+}

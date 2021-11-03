@@ -1,0 +1,162 @@
+.news {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 15px 15px;
+}
+
+.news__title-container {
+  position: relative;
+  justify-self: center;
+
+  display: flex;
+  align-items: flex-end;
+
+  height: 121px;
+
+  padding: 23px 0 50px;
+}
+
+.news__title-container::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  height: 3px;
+  width: 30px;
+
+  top: 0;
+  left: 50%;
+
+  background-color: #6ca6c1;
+}
+
+.news__title {
+  margin: 0 auto;
+  text-align: center;
+  height: 48px;
+}
+
+.news__container {
+  margin: 0 auto;
+
+  max-width: 1170px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news__item {
+  max-width: 370px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.news__image {
+  margin-bottom: 20px;
+
+  max-width: 370px;
+  width: 100%;
+  height: 277px;
+
+  object-fit: cover;
+}
+
+.news__info {
+  position: relative;
+  max-width: 370px;
+  width: 100%;
+
+  padding-left: 20px;
+}
+
+.news__info::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  width: 4px;
+  height: 78px;
+
+  top: 0;
+  left: 0;
+
+  background-color: #6ca6c1;
+}
+
+.news__date {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #7281a4;
+
+  margin-bottom: 10px;
+}
+
+.news__news-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #3f3f3f;
+
+  margin-bottom: 15px;
+}
+
+.news__short-story {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+
+  color: #3f3f3f;
+}
+
+@media (max-width: 1200px) {
+  .news__container {
+    max-width: 800px;
+  }
+
+  .news__item {
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .news {
+    margin: 40px auto 0;
+    padding: 0 5px 5px;
+  }
+
+  .news__title-container {
+    height: 129px;
+    padding: 13px 0 20px;
+  }
+
+  .news__title {
+    height: 96px;
+  }
+
+  .news__container {
+    margin: 0 auto;
+    max-width: 387px;
+    width: 100%;
+
+    flex-direction: column;
+  }
+
+  .news__item {
+    margin: 20px auto;
+  }
+}

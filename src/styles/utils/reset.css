@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

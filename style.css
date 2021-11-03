@@ -1,0 +1,14 @@
+@import "./src/styles/utils/reset.css";
+@import "./src/styles/utils/general.css";
+
+@import "./src/styles/blocks/header.css";
+@import "./src/styles/blocks/nav.css";
+@import "./src/styles/blocks/welcome.css";
+@import "./src/styles/blocks/feedback.css";
+@import "./src/styles/blocks/about.css";
+@import "./src/styles/blocks/benefits.css";
+@import "./src/styles/blocks/programs.css";
+@import "./src/styles/blocks/experts.css";
+@import "./src/styles/blocks/start.css";
+@import "./src/styles/blocks/news.css";
+@import "./src/styles/blocks/footer.css";

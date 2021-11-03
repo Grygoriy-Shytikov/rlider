@@ -1,0 +1,158 @@
+.feedback {
+  position: relative;
+
+  width: 549px;
+  height: 363px;
+
+  margin-top: 12px;
+
+  border: 3px solid #fff;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.feedback__title-container {
+  position: relative;
+
+  width: 77px;
+  height: 100%;
+  background-color: #ffffff64;
+
+  align-self: start;
+
+  display: flex;
+}
+
+.feedback__title {
+  position: absolute;
+  bottom: 140px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+
+  height: 33px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #fff;
+  top: 160px;
+  left: -110px;
+
+  transform: rotate(-90deg);
+
+  white-space: nowrap;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.feedback__form-label {
+  width: 290px;
+  height: 45px;
+
+  border: 1px solid #fff;
+  margin-bottom: 9px;
+  outline: none;
+  background: none;
+}
+
+.feedback__form-input {
+  display: block;
+
+  width: 252px;
+  height: 43px;
+  margin: auto;
+
+  outline: none;
+  background: none;
+  border: none;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #fff;
+}
+
+.feedback__form-input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #fff;
+}
+
+.feedback__form-btn {
+  margin-top: 10px;
+
+  width: 290px;
+  height: 45px;
+
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .feedback {
+    margin: 0 auto;
+
+    max-width: 549px;
+    width: 100%;
+
+    height: 260px;
+
+    border: 2px solid #fff;
+  }
+
+  .feedback__title-container {
+    width: 45px;
+  }
+
+  .feedback__title {
+    font-size: 18px;
+
+    top: 110px;
+    left: -90px;
+  }
+
+  .feedback__form {
+    max-width: 290px;
+    width: 100%;
+
+    padding: 10px;
+  }
+
+  .feedback__form-label {
+    max-width: 290px;
+    width: 100%;
+  }
+
+  .feedback__form-input {
+    max-width: 252px;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .feedback__form-btn {
+    margin-top: 10px;
+
+    max-width: 290px;
+    width: 100%;
+    height: 45px;
+
+    font-size: 14px;
+  }
+}

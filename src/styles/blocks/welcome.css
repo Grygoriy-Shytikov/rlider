@@ -1,0 +1,94 @@
+.welcome {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.welcome__description {
+  position: relative;
+}
+
+.welcome__description::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  height: 97px;
+  width: 160px;
+
+  background-image: url(../../icons/big-pointer.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+
+  left: 380px;
+  bottom: 0;
+}
+
+.welcome__about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.welcome__title {
+  padding-right: 70px;
+}
+
+.welcome__info-container {
+  width: 300px;
+}
+
+.welcome__info {
+  margin-top: 31px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #fff;
+  white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+  .welcome {
+    padding: 0 5px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .welcome__title {
+    text-align: center;
+    padding: 0;
+  }
+
+  .welcome__description::before {
+    display: none;
+  }
+
+  .welcome__info-container {
+    width: 240px;
+    margin: 0 auto;
+
+    padding: 20px;
+  }
+
+  .welcome__info {
+    margin: 10px 0;
+
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #fff;
+    white-space: nowrap;
+  }
+}

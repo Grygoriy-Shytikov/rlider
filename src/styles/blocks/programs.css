@@ -1,0 +1,262 @@
+.programs {
+  position: relative;
+  max-width: 2050px;
+  width: 100%;
+  margin: 100px auto 0;
+
+  height: 820px;
+  background-color: #f5f8f9;
+}
+
+.programs__wrapper {
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 100px 15px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.programs__details {
+  margin: 0;
+}
+
+.programs__title-container {
+  margin-top: 25px;
+  position: relative;
+  justify-self: start;
+
+  display: flex;
+  align-items: flex-end;
+
+  height: 169px;
+  padding: 23px 0 50px;
+}
+
+.programs__title-container::before {
+  position: absolute;
+  content: "";
+  display: block;
+
+  height: 3px;
+  width: 30px;
+
+  top: 0;
+
+  background-color: #6ca6c1;
+}
+
+.programs__title {
+  height: 96px;
+}
+
+.programs__card-list {
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.programs__card {
+  position: relative;
+  margin-bottom: 50px;
+
+  max-width: 480px;
+  width: 100%;
+
+  height: 88px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.programs__card::before {
+  position: absolute;
+  display: block;
+  content: "";
+
+  height: 86px;
+  width: 3px;
+
+  left: 3px;
+  top: 0;
+
+  background-color: #6ca6c1;
+}
+
+.programs__card-info {
+  padding: 0 32px 0 17px;
+
+  height: 91px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  justify-self: start;
+  align-self: start;
+}
+
+.programs__card-period,
+.programs__price {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #7281a4;
+}
+
+.programs__card-country {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #3f3f3f;
+}
+
+.programs__price {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: none;
+
+  white-space: nowrap;
+}
+
+.programs__card-benefits {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+
+  color: #7281a4;
+}
+
+.programs__order-btn {
+  width: 160px;
+  height: 40px;
+
+  align-self: flex-end;
+}
+
+.programs__image-container {
+  max-width: 575px;
+  width: 100%;
+
+  height: 620px;
+
+  padding-left: 10px;
+}
+
+.programs__image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .programs {
+    margin: 40px auto 0;
+
+    height: 1024px;
+  }
+
+  .programs__wrapper {
+    margin: 0 auto;
+    padding: 10px 5px 5px;
+
+    flex-direction: column;
+  }
+
+  .programs__details {
+    margin: 0 auto;
+  }
+
+  .programs__title-container {
+    height: 169px;
+    padding: 10px 0 20px;
+
+    margin-top: 0;
+  }
+
+  .programs__title {
+    height: 121px;
+  }
+
+  .programs__image-container {
+    margin: 0 auto;
+    padding: 0;
+    height: 400px;
+  }
+
+  .programs__card-list {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .programs {
+    margin: 40px auto 0;
+
+    height: 860px;
+  }
+
+  .programs__card,
+  .programs__card-info {
+    height: 61px;
+  }
+
+  .programs__card {
+    margin-bottom: 20px;
+  }
+
+  .programs__card-info {
+    padding: 0 10px 0 10px;
+  }
+
+  .programs__card::before {
+    height: 58px;
+    width: 2px;
+  }
+
+  .programs__card-period {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .programs__price {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .programs__card-country {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .programs__card-benefits {
+    font-size: 9px;
+    line-height: 19px;
+  }
+
+  .programs__order-btn {
+    max-width: 480px;
+    width: 100%;
+
+    font-size: 10px;
+  }
+
+  .programs__image-container {
+    max-height: 500px;
+  }
+}
