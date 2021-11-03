@@ -8,10 +8,15 @@
     <link rel="icon" href="src/icons/favicon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    >
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&family=Roboto&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
@@ -41,7 +46,11 @@
         <!-- BEGIN NAV -->
 
         <nav class="header__nav nav" id="nav">
-          <input class="nav__checkbox" type="checkbox" id="nav-toggler">
+          <input 
+            class="nav__checkbox"
+            type="checkbox"
+            id="nav-toggler"
+          >
           <label class="nav__toggler" for="nav-toggler"></label>
 
           <div class="nav-container">
@@ -49,8 +58,7 @@
             <!-- BEGIN dropdown-menu -->
             <ul class="nav__menu menu">
               <li class="menu__item">
-                <a class="menu__name nav__item"
-                  href='javascript:void(0)'>Услуги</a>
+                <a class="menu__name nav__item" href='javascript:void(0)'>Услуги</a>
                 <ul class="menu__sub-items">
                   <li>
                     <a class="menu__sub-item nav__item"
@@ -79,11 +87,14 @@
 
       <div class="welcome">
         <div class="welcome__description">
-          <h1 class="welcome__title title">Компания, которой<br>доверяют</h1>
+          <h1 class="welcome__title title">
+            Компания, которой<br>доверяют
+          </h1>
           <div class="welcome__info-container">
             <p class="welcome__info">
               Получите гражданство ЕС<br>
-              в ускоренный срок при<br>поддержке юристов Rlider.
+              в ускоренный срок при<br>
+              поддержке юристов Rlider.
             </p>
           </div>
 
@@ -101,19 +112,37 @@
             onsubmit="setTimeout(function () { window.location.reload(); }, 10)">
 
             <label class="feedback__form-label" for="input-name">
-              <input type="text" id="input-name" class="feedback__form-input"
-                placeholder="Ваше имя" maxlength="45" required="">
+              <input
+                type="text"
+                id="input-name"
+                class="feedback__form-input"
+                placeholder="Ваше имя"
+                maxlength="45"
+                required=""
+              >
             </label>
 
             <label class="feedback__form-label" for="input-email">
-              <input type="email" id="input-email" class="feedback__form-input"
-                placeholder="Ваш email" maxlength="45" required="">
+              <input
+                type="email"
+                id="input-email"
+                class="feedback__form-input"
+                placeholder="Ваш email"
+                maxlength="45"
+                required=""
+              >
             </label>
 
             <label class="feedback__form-label" for="input-phone">
-              <input type="phone" id="input-phone" class="feedback__form-input"
-                placeholder="Ваш телефон" minlength="10" maxlength="13"
-                required="">
+              <input
+                type="phone"
+                id="input-phone"
+                class="feedback__form-input"
+                placeholder="Ваш телефон"
+                minlength="10"
+                maxlength="13"
+                required=""
+              >
             </label>
 
             <button class="feedback__form-btn btn" type="submit">
@@ -137,14 +166,18 @@
 
       <section class="about">
         <div class="about__image-container">
-          <img class="about__image" src="./src/images/office-image.jpg"
-            alt="office">
+          <img
+            class="about__image"
+            src="./src/images/office-image.jpg"
+            alt="office"
+          >
         </div>
         <div class="about__description">
           <div class="about__title-container">
             <h2 class="about__title subtitle">
               Несколько слов<br>
-              о компании</h2>
+              о компании
+            </h2>
           </div>
           <div class="about__paragraph-container">
             <p class="about__paragraph">
@@ -244,8 +277,8 @@
                   <p class="programs__card-country">Румыния</p>
                   <p class="programs__price">
                     от 2850 евро
-                    <span
-                      class="programs__card-benefits">&nbsp;&nbsp;I&nbsp;&nbsp;
+                    <span class="programs__card-benefits">
+                      &nbsp;&nbsp;I&nbsp;&nbsp;
                       <bold>171 стран безвиз</bold>
                     </span>
                   </p>
@@ -258,8 +291,8 @@
                   <p class="programs__card-country">Болгария</p>
                   <p class="programs__price">
                     от 2850 евро
-                    <span
-                      class="programs__card-benefits">&nbsp;&nbsp;I&nbsp;&nbsp;
+                    <span class="programs__card-benefits">
+                      &nbsp;&nbsp;I&nbsp;&nbsp;
                       <bold>170 стран безвиз</bold>
                     </span>
                   </p>
@@ -272,8 +305,8 @@
                   <p class="programs__card-country">Польша</p>
                   <p class="programs__price">
                     от 2850 евро
-                    <span
-                      class="programs__card-benefits">&nbsp;&nbsp;I&nbsp;&nbsp;
+                    <span class="programs__card-benefits">
+                      &nbsp;&nbsp;I&nbsp;&nbsp;
                       <bold>174 стран безвиз</bold>
                     </span>
                   </p>
@@ -285,8 +318,11 @@
           </div>
 
           <div class="programs__image-container">
-            <img class="programs__image" src="./src/images/programs-image.jpg"
-              alt="happy family">
+            <img
+              class="programs__image"
+              src="./src/images/programs-image.jpg"
+              alt="happy family"
+            >
           </div>
         </div>
       </section>
@@ -300,29 +336,41 @@
         </div>
         <div class="experts__container">
           <div class="experts__card">
-            <img class="experts__photo" src="./src/images/photo-Martynov.jpg"
-              alt="Martynov photo">
+            <img 
+              class="experts__photo"
+              src="./src/images/photo-Martynov.jpg"
+              alt="Martynov photo"
+            >
             <h3 class="experts__name">Мартынов Иван</h3>
             <p class="experts__vocation">Специалист по граждансву Болгарии</p>
             <button class="experts__contact-btn btn">связаться</button>
           </div>
           <div class="experts__card">
-            <img class="experts__photo" src="./src/images/photo-Romanova.jpg"
-              alt="Romanova photo">
+            <img
+              class="experts__photo"
+              src="./src/images/photo-Romanova.jpg"
+              alt="Romanova photo"
+            >
             <h3 class="experts__name">Романова Екатерина</h3>
             <p class="experts__vocation">Специалист по граждансву Румынии</p>
             <button class="experts__contact-btn btn">связаться</button>
           </div>
           <div class="experts__card">
-            <img class="experts__photo" src="./src/images/photo-Sokolov.jpg"
-              alt="Sokolov photo">
+            <img
+              class="experts__photo"
+              src="./src/images/photo-Sokolov.jpg"
+              alt="Sokolov photo"
+            >
             <h3 class="experts__name">Соколов Игорь</h3>
             <p class="experts__vocation">Специалист по граждансву ЕС</p>
             <button class="experts__contact-btn btn">связаться</button>
           </div>
           <div class="experts__card">
-            <img class="experts__photo" src="./src/images/photo-Petrova.jpg"
-              alt="Petrova photo">
+            <img
+              class="experts__photo"
+              src="./src/images/photo-Petrova.jpg"
+              alt="Petrova photo"
+            >
             <h3 class="experts__name">Петрова Ольга</h3>
             <p class="experts__vocation">Юрист</p>
             <button class="experts__contact-btn btn">связаться</button>
@@ -349,25 +397,45 @@
               <h2 class="feedback__title">Свяжитесь с нами</h2>
             </div>
 
-            <form class="feedback__form" action="post"
-              onsubmit="setTimeout(function () { window.location.reload(); }, 10)">
-
+            <form
+              class="feedback__form"
+              action="post"
+              onsubmit="setTimeout(function () { window.location.reload(); }, 10)"
+            >
               <label class="feedback__form-label" for="input-name-2">
-                <input type="text" id="input-name-2"
-                  class="feedback__form-input" placeholder="Ваше имя"
-                  maxlength="45" required="">
+                <input 
+                  type="text"
+                  id="input-name-2"
+                  class="feedback__form-input"
+                  placeholder="Ваше имя"
+                  maxlength="45"
+                  required="">
               </label>
 
-              <label class="feedback__form-label" for="input-email-2">
-                <input type="email" id="input-email-2"
-                  class="feedback__form-input" placeholder="Ваш email"
-                  maxlength="45" required="">
+              <label
+                class="feedback__form-label"
+                for="input-email-2"
+              >
+                <input
+                  type="email"
+                  id="input-email-2"
+                  class="feedback__form-input"
+                  placeholder="Ваш email"
+                  maxlength="45"
+                  required=""
+                >
               </label>
 
               <label class="feedback__form-label" for="input-phone-2">
-                <input type="phone" id="input-phone-2"
-                  class="feedback__form-input" placeholder="Ваш телефон"
-                  minlength="10" maxlength="13" required="">
+                <input
+                  type="phone"
+                  id="input-phone-2"
+                  class="feedback__form-input"
+                  placeholder="Ваш телефон"
+                  minlength="10"
+                  maxlength="13"
+                  required=""
+                >
               </label>
 
               <button class="feedback__form-btn btn" type="submit">
@@ -384,39 +452,59 @@
 
       <section class="news">
         <div class="news__title-container">
-          <h2 class="news__title subtitle">Последние новости и события</h2>
+          <h2 class="news__title subtitle">
+            Последние новости и события
+          </h2>
         </div>
         <div class="news__container">
           <div class="news__item">
-            <img class="news__image" src="./src/images/news-1.jpg"
-              alt="news image">
+            <img
+              class="news__image"
+              src="./src/images/news-1.jpg"
+              alt="news image"
+            >
             <div class="news__info">
               <p class="news__date">27 октября 2019</p>
-              <h3 class="news__news-title">Что даёт румынский паспорт гражданам
-                России</h3>
-              <p class="news__short-story">Многих жителей России интересует
-                возможность получения европейского паспорта...</p>
+              <h3 class="news__news-title">
+                Что даёт румынский паспорт гражданам России
+              </h3>
+              <p class="news__short-story">
+                Многих жителей России интересует
+                возможность получения европейского паспорта...
+              </p>
             </div>
           </div>
           <div class="news__item">
-            <img class="news__image" src="./src/images/news-2.jpg"
-              alt="news image">
+            <img
+              class="news__image"
+              src="./src/images/news-2.jpg"
+              alt="news image"
+            >
             <div class="news__info">
               <p class="news__date">27 октября 2019</p>
-              <h3 class="news__news-title">10 преимуществ гражданства <br>
-                Болгарии</h3>
-              <p class="news__short-story">Республика Болгария с 1 января 2007
-                года является полноправным членом Европейского союза...</p>
+              <h3 class="news__news-title">
+                10 преимуществ гражданства<br>Болгарии
+              </h3>
+              <p class="news__short-story">
+                Республика Болгария с 1 января 2007
+                года является полноправным членом Европейского союза...
+              </p>
             </div>
           </div>
           <div class="news__item">
-            <img class="news__image" src="./src/images/news-3.jpg"
-              alt="news image">
+            <img 
+              class="news__image"
+              src="./src/images/news-3.jpg"
+              alt="news image"
+            >
             <div class="news__info">
               <p class="news__date">27 октября 2019</p>
-              <h3 class="news__news-title">Название последней очень <br>
-                интересной новости</h3>
-              <p class="news__short-story">Наша новость такая интересная,
+              <h3 class="news__news-title">
+                Название последней очень<br>
+                интересной новости
+              </h3>
+              <p class="news__short-story">
+                Наша новость такая интересная,
                 обязательно почитайте ее и зайдите на наш блог...</p>
             </div>
           </div>
